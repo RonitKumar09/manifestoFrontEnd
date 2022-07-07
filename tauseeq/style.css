@@ -1,0 +1,111 @@
+#logo{
+    position: relative;
+    margin-left: 60px;
+    top: 80px;
+    left: 100px;
+    
+    font-size: 28px;
+
+}
+
+#manifes{
+    position: relative;
+    top: 95px;
+    left: 15vh;
+    color: aquamarine;
+    letter-spacing: 0.2rem;
+    font-size: 20px;
+    
+
+}
+.grid-container-search{
+    position: relative;
+    margin-right: 60px;
+    left:90%;
+    color: aqua;
+}
+
+
+
+.grid-container-navigation ul{
+    list-style:none ;
+}
+.dropdown{
+    background-color:transparent;
+    display: inline-block;
+    text-align: right;
+    position:relative;
+    top: 135px;
+    left: 250px;
+    font-family:sans-serif;
+    font-size: medium;
+    font-style:bold ;
+    font-weight: 500 ;
+}
+.grid-container-navigation a{
+    text direction:black;
+    display: grid;
+    display: inline-block;
+    text-align: right;
+    position:relative;
+    top: 100px;
+    left: 800px;
+    font-family:sans-serif;
+    font-size: medium;
+    font-style:bold ;
+    font-weight: 500 ;
+    color: black;
+    justify-content: space-between;
+}  
+.grid-container-navigation ul li  a:hover{
+
+background:rgb(193, 193, 221);
+}
+.grid-container-navigation >ul{
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+    color:#fff
+
+}
+
+.grid-container-navigation>ul>li {
+    position: relative;
+    font-family:sans-serif;
+    cursor:pointer;
+    font-size:24px;
+    letter-spacing:.1px;
+    float:left;
+    width:136px;
+    height:50px;
+    line-height:50px;
+    
+}
+.dropdown a li{ 
+    position:absolute;
+    display:none;
+    list-style:none;
+    top: 100%;
+    left: 0%;
+    width: 100%;
+    padding: 0%;
+}
+.dropdown a{
+    background:rgb(230, 209, 209) ;
+    display: none;
+
+}
+.dropdown li a:hover{
+    background: paleturquoise;
+}
+.grid-container-navigation a:hover .dropdown ul li a{
+
+    background: transparent;
+}
+.grid-container-navigation  a:hover .dropdown ul li a{
+    perspective: 1000px;
+}
+.grid-container-navigation a:hover .dropdown ul li a{
+    transform-origin: top center;
+    opacity:0;
+}

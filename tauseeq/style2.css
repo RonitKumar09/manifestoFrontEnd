@@ -1,0 +1,65 @@
+html{
+    background-color: black;
+}
+.Solution {
+    display: grid ;
+    grid-template-columns: auto auto auto auto;
+    gap:10px;
+    background-color: white;
+    padding:10px;
+    justify-content: space-between;
+    border-radius: 20px;
+
+}
+.Solution a{
+    display: block;
+    text-align: center;
+    
+}
+.domain {
+    display:grid;
+    grid-template-columns: auto;
+    color:black;
+    border: red solid 3px;
+    border-radius: 20px;
+    
+}
+.Resources {
+    border-radius: 20px;
+    display:grid;
+    border: red solid 3px;
+     grid-template-columns:auto;
+    color: black;   
+   
+    
+}
+.Resources a{
+    display: inline-block;
+    border-radius: 20px;
+    justify-content:space-between;
+    font-family:
+
+}
+.services-by-function{
+    border-radius: 20px;
+    border: red solid 3px;
+
+    
+}
+img{
+    height:300px;
+    width: 300px;
+    border-radius: 20px;
+}
+.services-by-function a{
+    border-radius: 20px;
+}
+.Services-By-Use-Cases {
+    border: red solid 3px;
+    display: grid;
+    
+}
+.Services-By-Use-Cases{
+    border-radius: 20px;
+    
+}
