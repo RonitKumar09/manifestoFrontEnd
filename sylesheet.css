@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:ital,wght@0,100;0,300;0,400;0,700;1,300;1,400&display=swap');
+
+html{
+    background-color: black;
+}
+
+
+.img{
+    width: 308px;
+    height: 344px;
+}
+.Manifesto{
+    border: solid white 4px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    background-color:white;
+    padding: 10px;
+    margin: 30px;
+    border-radius: 30px;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    
+}
+.Manifesto a{
+    text-decoration: none;
+    color: black;   
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-family: IBM Plex Sans Condensed;
+    
+    
+}
+.Manifesto h3{
+    text-align: center;
+    font-style: bold;
+    
+
+}
+.overview{
+    border-radius: 20px;
+}
+.report{
+    border: solid red 4px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
+
+}
+.report a{
+    
+    text-align: center;
+    text-decoration: none;
+    
+
+}
+
+.overview{
+    border: solid red 4px;
+    border-radius: 20px;
+    
+
+}
+.overview a{
+    text-decoration: none;
+}
+
+.m-mains{
+    border: solid red 4px;
+    border-radius: 20px;
+    
+
+}
+.m-mains a{
+    text-decoration: none;
+}
+.prototype{
+    border: solid red 4px;
+    border-radius: 20px;
+    
+
+}.laneofI{
+    border: solid red 4px;
+    border-radius: 20px;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
