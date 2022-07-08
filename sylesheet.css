@@ -6,17 +6,25 @@ html{
 
 
 .img{
-    width: 308px;
-    height: 344px;
+    width: 324px;
+    height:360px;
+    padding-right: 50px;
+    padding-top: 20px;
 }
 .Manifesto{
     border: solid white 4px;
     display: grid;
-    grid-template-columns: auto auto auto;
+
+    height: 520px;
+    /* grid-template-columns: auto auto auto; */
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-template-columns: 30px repeat(4, 1fr) 30px; */
     gap: 10px;
     background-color:white;
     padding: 10px;
-    margin: 30px;
+    margin: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
     border-radius: 30px;
     font-family: 'IBM Plex Sans Condensed', sans-serif;
     
@@ -32,60 +40,116 @@ html{
     font-family: IBM Plex Sans Condensed;
     
     
+    
 }
 .Manifesto h3{
     text-align: center;
     font-style: bold;
+    text-align: left;
     
 
 }
 .overview{
     border-radius: 20px;
+    grid-column: 1 / 1;
+    grid-row: 1;
 }
 .report{
-    border: solid red 4px;
+    position: absolute;
     text-align: center;
     text-decoration: none;
-    border-radius: 20px;
+    border-radius: 5px;
+    grid-column:  1/ 2;
+    grid-row: 2;
+    margin-left: 68px;
+    top: 320px;
+    /* border: 2px solid red; */
 
 }
 .report a{
     
     text-align: center;
     text-decoration: none;
+    background-image:url(Rectangle4.jpg);
+    margin: 10px;
+    border-radius: 10px;
+    color: white;
+    padding: 2px;
     
-
+    
 }
 
 .overview{
-    border: solid red 4px;
-    border-radius: 20px;
     
+    border-radius: 20px;
+    height: 200px;
+    width: 90%;
+    display: inline-block;
+    margin-top: 20px;
+    /* border: 2px solid red; */
 
 }
 .overview a{
     text-decoration: none;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: left;
+    
+    margin-left: 80px;
+    margin-top: 20px;
+    line-height: 30px;
+
 }
 
 .m-mains{
-    border: solid red 4px;
+    
     border-radius: 20px;
+    grid-column:  2/ 3;
+    grid-row: 1;
+    margin-top: 20px;
+    /* border: 2px solid red; */
     
 
 }
 .m-mains a{
     text-decoration: none;
+    margin-top: 20px;
+    line-height: 30px;
+    text-align: left;
+}
+.prototype a{
+    text-align: left;
+    line-height: 50px;
 }
 .prototype{
-    border: solid red 4px;
+    margin-top: 20px;
     border-radius: 20px;
+    grid-column:  3/ 4;
+    grid-row: 1;
     
 
 }.laneofI{
-    border: solid red 4px;
-    border-radius: 20px;
     
+    position: absolute;
+    width: 472px;
+height: 47px;
+left: 1312px;
+top: 470px;
+text-justify: auto;
 
+font-family: 'Roboto';
+font-style: normal;
+font-weight:1px;
+font-size: 40px;
+line-height: 47px;
+
+
+align-items: center;
+letter-spacing: 0.32em;
+
+color: #000000;
+
+text-shadow: 2px 4px 8px rgba(146, 9, 253, 0.99);
 }
 
 
